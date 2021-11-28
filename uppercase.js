@@ -1,5 +1,7 @@
 function upper(str){
+	var a=[];
 	var c=str.toUpperCase();
-	return c;
+	a.push(c);
+	return a;
 }
-console.log([upper("hello")]);
+console.log(upper("hello"));
